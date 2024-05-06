@@ -1,8 +1,108 @@
-//
-//  File.swift
-//  
-//
-//  Created by Dalton Alexandre on 5/6/24.
-//
 
-import Foundation
+
+body {
+ font-family: 'Arial', sans-serif;
+ background-color: #f4f4f4;
+margin: 0;
+padding: 0;
+display: flex;
+ justify-content: center;
+ align-items: center;
+height: 100vh;
+ text-align: center;
+}
+.container {
+background: white;
+padding: 50px;
+ border-radius: 10px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+color: #333;
+}
+a {
+display: inline-block;
+ margin-top: 20px;
+padding: 10px 20px;
+ background-color: #007bff;
+color: white;
+ text-decoration: none;
+ border-radius: 5px;
+transition: background-color 0.3s;
+}
+a:hover {
+ background-color: #0056b3;
+}
+@media (prefers-color-scheme: dark) {
+ body {
+  font-family: 'Arial', sans-serif;
+  background-color: #121212; /* Dark background */
+ color: #ffffff; /* Light text for better readability in dark mode */
+ margin: 0;
+ padding: 0;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+ height: 100vh;
+  text-align: center;
+ }
+ .container {
+ background: #333333; /* Darker shade for the container */
+ padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Lighter shadow for dark mode */
+ }
+ h1 {
+ color: #ffffff; /* Light text color for headings */
+ }
+ a {
+ display: inline-block;
+  margin-top: 20px;
+ padding: 10px 20px;
+  background-color: #0d6efd; /* Adjusted blue to stand out in dark mode */
+ color: white;
+  text-decoration: none;
+  border-radius: 5px;
+ transition: background-color 0.3s;
+ }
+a:hover {
+ background-color: #0b5ed7; /* A slightly darker blue for hover effect */
+}
+}
+
+body {
+ font-family: 'Arial', sans-serif;
+ background-color: #f4f4f4;
+margin: 0;
+padding: 20px;
+display: flex;
+ justify-content: center;
+ align-items: center;
+height: 100vh;
+}
+.container {
+ text-align: center;
+background: white;
+padding: 50px;
+ border-radius: 10px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+color: #333;
+}
+p {
+color: #666;
+}
+a {
+display: inline-block;
+ margin-top: 20px;
+padding: 10px 20px;
+ background-color: #007bff;
+color: white;
+ text-decoration: none;
+ border-radius: 5px;
+transition: background-color 0.3s;
+}
+a:hover {
+ background-color: #0056b3;
+}
