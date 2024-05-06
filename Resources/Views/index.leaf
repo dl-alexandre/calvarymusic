@@ -1,6 +1,7 @@
 <!-- Resources/Views/index.leaf -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,15 +18,18 @@
             height: 100vh;
             text-align: center;
         }
+
         .container {
             background: white;
             padding: 50px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+
         h1 {
             color: #333;
         }
+
         a {
             display: inline-block;
             margin-top: 20px;
@@ -36,18 +40,20 @@
             border-radius: 5px;
             transition: background-color 0.3s;
         }
+
         a:hover {
             background-color: #0056b3;
         }
     </style>
 </head>
+
 <body>
     <div class="container">
-    #extend("footer")
+        #extend("footer")
         <h1>Welcome to Calvary Music</h1>
         <a href="stephenethridge/yourdisciple" target="_blank" rel="noopener noreferrer">Your Disciple</a>
-    #endextend
+        #endextend
     </div>
 </body>
-</html>
 
+</html>

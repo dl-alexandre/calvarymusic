@@ -1,8 +1,7 @@
 #extend("master"):
-    #export("body"):
-        <div class="container">
-            <a href="stephenethridge/yourdisciple" target="_blank" rel="noopener noreferrer">Your Disciple</a>
-        </div>
-    #endexport
+#export("body"):
+<div class="container">
+    <a href="stephenethridge/yourdisciple" target="_blank" rel="noopener noreferrer">Your Disciple</a>
+</div>
+#endexport
 #endextend
-
