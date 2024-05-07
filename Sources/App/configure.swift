@@ -9,7 +9,13 @@ public func configure(_ app: Application) async throws {
  app.middleware.use(file)
  app.views.use(.leaf)
  app.routes.defaultMaxBodySize = "11mb"
- app.http.server.configuration.hostname = "0.0.0.0"
+ switch app.environment {
+  case .production:
+   app.http.server.configuration.hostname = "0.0.0.0"
+  default: break
+   
+ }
+// app.http.server.configuration.hostname = "0.0.0.0"
  app.http.server.configuration.port = 8081
  print("\(app.directory.workingDirectory)")
  print("\(app.directory.publicDirectory)")

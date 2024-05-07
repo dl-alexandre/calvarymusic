@@ -1,6 +1,5 @@
-#extend("download"):
+#extend("Templates/download"):
 #export("body"):
-
 <body>
     <div class="container">
         <a href="/Your Disciple.m4a" target="_blank"><img src="/YourDisciple.jpeg" alt="Album Artwork">

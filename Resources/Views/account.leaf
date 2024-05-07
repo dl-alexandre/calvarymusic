@@ -1,0 +1,9 @@
+#extend("Templates/master"):
+#export("body"):
+<body>
+    <div class="container">
+        <h6>Account Page in Progress</h6>
+    </div>
+</body>
+#endexport
+#endextend
