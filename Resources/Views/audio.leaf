@@ -7,10 +7,16 @@
             <p></p>Your Disciple - Stephen Ethridge
         </a>
         <p></p>
-        <h6>Click Art to play</h6>
+        <audio controls autoplay="true">
+        <source src="Your Disciple.wav" type="audio/wav">
+        <source src="http://127.0.0.1:8081/Your%20Disciple.m4a" type="audio/mp4">
+        <source src="Your Disciple.mp3" type="audio/mpeg">
+          Your browser does not support the audio tag.
+        </audio>
+        <p></p>
         <h6>or</h6>
         <h6>Right-click Artwork, choose “'Save Audio' or 'Download Linked File' As” to download.</h6>
-        <p></p>
+        
     </div>
 </body>
 #endexport

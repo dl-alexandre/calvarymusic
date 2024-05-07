@@ -11,13 +11,13 @@ func routes(_ app: Application) throws {
 //     return try await req.view.render("hello", ["name": "Leaf"])
 //    }
 //
- app.get("master") { req -> EventLoopFuture<View> in
-  return req.view.render("master")
- }
- 
- app.get("index") { req -> EventLoopFuture<View> in
-  return req.view.render("index")
- }
+// app.get("master") { req -> EventLoopFuture<View> in
+//  return req.view.render("master")
+// }
+// 
+// app.get("index") { req -> EventLoopFuture<View> in
+//  return req.view.render("index")
+// }
 
  app.get { req -> EventLoopFuture<View> in
   return req.view.render("yourdisciple")

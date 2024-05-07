@@ -1,3 +1,35 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display: block;}
+body { line-height: 1;}
+ol,ul { list-style: none;}
+blockquote,q { quotes: none;}
+blockquote:before,blockquote:after,q:before,q:after { content: ''; content: none;}
+table { border-collapse: collapse; border-spacing: 0;}
+
+
+header {
+ background-color: #d13239; /* Brand Red */
+}
+
+header .wrapper {
+ padding-top: 10px;
+ padding-bottom: 10px;
+ text-align: left;
+}
+
+header a {
+ text-decoration: none;
+}
+
+header .site-name {
+ font-size: 1.5em;
+ color: #fff6e4;
+ font-weight: bold;
+ margin-left: 0;
+ max-width: 25%;
+ max-height: 25%;
+}
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
@@ -8,6 +40,9 @@ body {
     align-items: center;
     height: 100vh;
     text-align: center;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
 }
 
 .container {
@@ -15,8 +50,11 @@ body {
     padding: 50px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
 
+}
+.content {
+    flex-grow: 1; /* Eat the remaining space */
+}
 h1 {
     color: #333;
 }
@@ -35,6 +73,17 @@ a {
 a:hover {
     background-color: #0056b3;
 }
+/**/
+/*footer {*/
+/* color: #ffd65a; /*Brand Yolk*/*/
+/* /*font-size: 9pt;*/*/
+/*}*/
+/**/
+/*footer p {*/
+/* font-size: 0.85em;*/
+/* text-align: center*/
+/*}*/
+
 
 @media (prefers-color-scheme: dark) {
     body {
