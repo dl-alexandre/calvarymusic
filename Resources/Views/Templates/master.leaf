@@ -11,7 +11,7 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            
+
             margin: 0;
             padding: 0;
             display: flex;
@@ -34,7 +34,7 @@
             background-color: black;
             color: white;
             padding: 10px 20px;
-            
+
             text-decoration: none;
             border-radius: 5px;
             transition: background-color 0.3s;
@@ -49,7 +49,7 @@
 
 #extend("Templates/header"):
 #export("header"):
-    <h2>#(title)</h2>
+<h2>#(title)</h2>
 #endexport
 #endextend
 
@@ -57,7 +57,7 @@
 
 #extend("Templates/footer"):
 #export("footer"):
-    <p style="margin-bottom: 10px;">© 2024 Calvary Music. All rights reserved.</p>
+<p style="margin-bottom: 10px;">© 2024 Calvary Music. All rights reserved.</p>
 #endexport
 #endextend
 

@@ -11,7 +11,7 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            
+
             margin: 0;
             padding: 20px;
             display: flex;
@@ -32,7 +32,7 @@
             display: inline-block;
             border: 2px solid white;
             padding: 10px 20px;
-            
+
             text-decoration: none;
             border-radius: 5px;
             transition: background-color 0.3s;
@@ -42,12 +42,12 @@
             background-color: #ddd;
         }
     </style>
-    
+
 </head>
 
 #extend("Templates/header"):
 #export("header"):
-    <h2>Your Disciple</h2>
+<h2>Your Disciple</h2>
 #endexport
 #endextend
 
@@ -55,7 +55,7 @@
 
 #extend("Templates/footer"):
 #export("footer"):
-    <p style="margin-bottom: 10px;">© 2024 Calvary Music. All rights reserved.</p>
+<p style="margin-bottom: 10px;">© 2024 Calvary Music. All rights reserved.</p>
 #endexport
 #endextend
 
