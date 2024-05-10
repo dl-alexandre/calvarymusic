@@ -1,7 +1,8 @@
 #extend("Templates/master"):
 #export("body"):
-<div class="container">
-        <a href="stephenethridge/yourdisciple" target="_blank" rel="noopener noreferrer">Your Disciple</a>
+    <div class="container">
+        <a href="#songURL()" target="_blank" rel="noopener noreferrer">#(song.title)</a>
     </div>
 #endexport
 #endextend
+

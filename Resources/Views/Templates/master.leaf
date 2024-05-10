@@ -57,7 +57,6 @@
 
 #extend("Templates/footer"):
 #export("footer"):
-<p style="margin-bottom: 10px;">© 2024 Calvary Music. All rights reserved.</p>
 #endexport
 #endextend
 
